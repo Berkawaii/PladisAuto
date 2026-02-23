@@ -28,7 +28,7 @@ const Iletisim = () => (
         <p className="text-white">info@pladisauto.com</p>
       </div>
       <div className="h-[400px] glass grayscale">
-        <img src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?auto=format&fit=crop&q=80&w=1000" alt="Pladis Workshop" className="w-full h-full object-cover opacity-50" />
+        <img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&q=80&w=1000" alt="Pladis Workshop" className="w-full h-full object-cover opacity-50" />
       </div>
     </div>
   </div>
