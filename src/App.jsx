@@ -37,7 +37,7 @@ const Iletisim = () => (
 function App() {
   return (
     <DataProvider>
-      <Router>
+      <Router basename="/PladisAuto">
         <div className="min-h-screen bg-primary text-primary selection:bg-white selection:text-black">
           <Navbar />
           <Routes>

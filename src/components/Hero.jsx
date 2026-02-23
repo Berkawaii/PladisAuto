@@ -15,7 +15,7 @@ const Hero = () => {
                     className="w-full h-full"
                 >
                     <img
-                        src="/mercedes_hero.png"
+                        src="mercedes_hero.png"
                         alt="Mercedes Excellence"
                         className="w-full h-full object-cover grayscale-[0.2]"
                     />
