@@ -80,7 +80,7 @@ const Home = () => {
                 <div className="container grid md:grid-cols-2 lg:grid-cols-5 gap-16 items-center">
                     <div className="lg:col-span-3 h-[600px] relative overflow-hidden glass-panel p-1 group">
                         <img
-                            src="https://images.unsplash.com/photo-1621359953275-358129329d5a?auto=format&fit=crop&q=80&w=1400"
+                            src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=1400"
                             alt="Luxury Workshop"
                             className="luxury-image w-full h-full object-cover grayscale-[0.3] group-hover:grayscale-0"
                         />
