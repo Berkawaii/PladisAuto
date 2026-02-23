@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import heroImg from '../assets/mercedes_hero.png';
+import heroVideo from '../assets/pladisloop.mp4';
 
 const Hero = () => {
     return (
@@ -10,14 +11,18 @@ const Hero = () => {
             {/* Background Media */}
             <div className="absolute inset-0 z-0">
                 <motion.div
-                    initial={{ scale: 1.2 }}
-                    animate={{ scale: 1 }}
+                    initial={{ scale: 1.1, opacity: 0 }}
+                    animate={{ scale: 1, opacity: 1 }}
                     transition={{ duration: 1.5, ease: "easeOut" }}
                     className="w-full h-full"
                 >
-                    <img
-                        src={heroImg}
-                        alt="Mercedes Excellence"
+                    <video
+                        src={heroVideo}
+                        poster={heroImg}
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
                         className="w-full h-full object-cover grayscale-[0.2]"
                     />
                 </motion.div>
