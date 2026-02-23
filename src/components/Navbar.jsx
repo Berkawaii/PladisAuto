@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, User, ArrowUpRight } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
+import logo from '../assets/pladis_logo.png';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -37,7 +38,7 @@ const Navbar = () => {
                 {/* Logo Section */}
                 <Link to="/" className="flex items-center gap-4 group">
                     <div className="relative w-14 h-14 flex items-center justify-center overflow-hidden rounded-xl border border-white/10 group-hover:border-white/30 transition-colors">
-                        <img src={`${import.meta.env.BASE_URL}pladis_logo.png`} alt="Pladis Auto Logo" className="w-full h-full object-cover scale-110" />
+                        <img src={logo} alt="Pladis Auto Logo" className="w-full h-full object-cover scale-110" />
                         <div className="absolute inset-0 bg-white/20 blur-2xl opacity-0 group-hover:opacity-40 transition-opacity" />
                     </div>
                     <div className="flex flex-col">

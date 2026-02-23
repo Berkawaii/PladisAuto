@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Services from './pages/Services';
@@ -37,7 +37,7 @@ const Iletisim = () => (
 function App() {
   return (
     <DataProvider>
-      <Router basename={import.meta.env.BASE_URL}>
+      <Router>
         <div className="min-h-screen bg-primary text-primary selection:bg-white selection:text-black">
           <Navbar />
           <Routes>

@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import heroImg from '../assets/mercedes_hero.png';
 
 const Hero = () => {
     return (
@@ -15,7 +16,7 @@ const Hero = () => {
                     className="w-full h-full"
                 >
                     <img
-                        src={`${import.meta.env.BASE_URL}mercedes_hero.png`}
+                        src={heroImg}
                         alt="Mercedes Excellence"
                         className="w-full h-full object-cover grayscale-[0.2]"
                     />
