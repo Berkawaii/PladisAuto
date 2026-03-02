@@ -1,16 +1,51 @@
-# React + Vite
+# Pladis Auto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pladis Auto, lüks araç segmentinde hizmet veren, modern ve premium bir otomobil servis yönetim platformudur. Mercedes-Benz sertifikalı uzmanlık ve milimetrik hassasiyet vizyonuyla geliştirilmiştir.
 
-Currently, two official plugins are available:
+## Vizyon
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aracın bir makineden öte, korunması gereken bir sanat eseri olduğu bilinciyle; standartların ötesinde bir servis deneyimi sunmak.
 
-## React Compiler
+## Temel Özellikler
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- Uzman Mühendislik: Mercedes-Benz sertifikalı ekip ile her adımda yüksek hassasiyetli teknik müdahale.
+- Orijinal Kalite: Aracın değerini ve performansını korumak adına yalnızca yetkili ve orijinal parça kullanımı.
+- Performans Analizi: En güncel diagnostik sistemler kullanılarak gerçekleştirilen güç ve verimlilik optimizasyonu.
+- VIP Zaman Yönetimi: Hızlı servis süreçleri ve konforlu bekleme alanları ile müşteri zamanına verilen değer.
 
-## Expanding the ESLint configuration
+## Teknik Altyapı
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Proje, modern web teknolojileri ve yüksek performanslı kütüphaneler üzerine inşa edilmiştir:
+
+- React 19: Kullanıcı arayüzü geliştirme.
+- Vite: Hızlı ve optimize edilmiş geliştirme ortamı.
+- Tailwind CSS: Modern ve responsive tasarım sistemi.
+- Framer Motion: Akıcı ve premium animasyon deneyimi.
+- Lucide React: Tasarım diline uygun, temiz ikon seti.
+
+## Kurulum ve Çalıştırma
+
+Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
+
+1. Depoyu yerel makinenize indirin.
+2. Gerekli bağımlılıkları yükleyin:
+   ```bash
+   npm install
+   ```
+3. Uygulamayı geliştirme modunda başlatın:
+   ```bash
+   npm run dev
+   ```
+
+## Dağıtım
+
+Proje, GitHub Pages üzerinde yayınlanmak üzere konfigüre edilmiştir. Dağıtım işlemi için şu komutu kullanabilirsiniz:
+```bash
+npm run deploy
+```
+
+Canlı Versiyon: [Pladis Auto](https://Berkawaii.github.io/PladisAuto/)
+
+## Lisans
+
+Bu proje, Pladis Auto markasının dijital kimliği kapsamında geliştirilmiştir. Tüm hakları saklıdır.
